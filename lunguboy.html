@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="2023albums.css">
+  <link rel="shortcut icon" href="lunguboy.jpeg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/90ae465085.js" crossorigin="anonymous"></script>
+  <title>kenez.lunguboy</title>
+  <div class="menubar">
+    <ul>
+      <li>
+        <div style="padding: auto;margin-left: 40%;"><img src="Kenez.jpg" width="70" height="60"></div>
+      </li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="ALBUMZ2024.html">2024 ALBUMS</a></li>
+      <li><a href="lunguboy.html" class="chosennav">LUNGU BOY</a></li>
+      <li><a href="heis.html">HEIS</a></li>
+      <li><a href="ikigai.html">IKIGAI VOL. 1</a></li>
+      <li><a href="adedamola.html">ADEDAMOLA</a></li>
+      <li><a href="bitw.html">BORN IN THE WILD</a></li>
+      <li><a href="tyit21.html" title="THE YEAR I TURNED 21">TYIT21</a></li>
+      <li><a href="444.html">444</a></li>
+      <li><a href="javascript:void(0)"onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">MORAYO</a></li>
+      <li><a href="javascript:void(0)" onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">CLARITY OF MIND</a></li>
+     </ul>
+  </div>
+</head>
+
+<body>
+  <br>
+  <div class="body">
+    <img src="lunguboy.jpeg" class="mainimg" title="LUNGU BOY"><br>
+    <CITE>Written by Kenez</CITE>
+    <p> <b>Lungu Boy</b> is the third studio album by Nigerian singer Asake. A follow-up to his previous album, <a href="woa.html">Work of Art</a>
+      (2023), the album was released on 9 August 2024 through <code>YBNL Nation</code> and <code>Empire Distribution</code>.
+      <br>
+      The album also contains guest appearances from <code>LUDMILLA, TRAVIS SCOTT, CENTRAL CEE, STORMZY </code> and <code>WIZKID</code> alongside production from
+      <code>P.Priime, Magicsticks, Mike Dean, Sarz, Sak Pase</code> and plugged by <code>Olaitan Salaudeen.</code>
+      <BR>BELOW IS THE ALBUM TRACKLIST-
+    <ol type="1">
+      <li>START
+      <li>MMS <code>[with WIZKID]</code>
+      <li>MOOD
+      <li>MY HEART
+      <li>WORLDWIDE
+      <li>WAVE <code>[with CENTRAL CEE]</code>
+      <li>SURU <code>[ft STORMZY]</code>
+      <li>SKATING
+      <li>ACTIVE <code>[with TRAVIS SCOTT]</code>
+      <li>MENTALLY
+      <li>UHH YEAH
+      <li>I SWEAR
+      <li>LIGALI
+      <li>WHINE <code>[with LUDMILLA]</code>
+      <li>FUJI VIBE
+      </li>
+    </ol>
+    </p>
+    <a href="https://jn3.awamedia.store/uploads/albums/2024/08/Lungu_Boy_album.zip" class="downloadbtn"
+      onclick="alert('ARE YOU SURE YOU WANT TO DOWNLOAD THE lungu boy ALBUM?')"><i class="fa fa-download"></i>&nbsp;
+      DOWNLOAD </a><br><br>
+  </div>
+
+  <h3><i class="fa fa-comment"></i>COMMENTS:</h3><br>
+  <div class="comments-list" id="comments-list" >
+  </div>
+  
+  <br>
+  <h4>LEAVE A COMMENT ABOUT THIS PROJECT</h4>
+      <div>
+      <div class="comment-box">
+  <textarea id="comment-input" placeholder="Write your review here..."></textarea><br>
+  <button class="rgstrbtn" onclick="addComment()">SEND</button>
+  </div>
+  </div>
+  
+  <script>
+  function addComment() {
+  var commentInput = document.getElementById('comment-input');
+  var commentText = commentInput.value;
+  
+  if (commentText.trim() !== "") {
+      var commentList = document.getElementById('comments-list');
+      var newComment = document.createElement('div');
+      newComment.className = 'comment';
+      newComment.textContent = commentText;
+      commentList.appendChild(newComment);
+      commentInput.value= '';
+  } else {
+      alert("Please enter a valid comment.");
+  }
+  }
+  </script>
+
+</html>

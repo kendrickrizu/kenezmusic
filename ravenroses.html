@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>kenez.ravenroses</title>
+    <link rel="icon" type="t/x-icon" href="ravenroses.jpeg">
+    <link rel="stylesheet" href="2023albums.css">
+    <script src="https://kit.fontawesome.com/90ae465085.js" crossorigin="anonymous"></script>
+    <ul>
+        <li>
+            <div style="padding: auto;margin-left: 40%;"><img src="Kenez.jpg" width="50" height="50"></div>
+        </li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="ALBUMZ2023.html">2023 ALBUMS</a></li>
+        <li><a href="woa.html">WORK OF ART</a></li>
+        <li><a href="boyalone.html">BOY ALONE [DELUXE]</a></li>
+        <li><a href="rtw.html">RU THE WORLD</a></li>
+        <li><a href="tl.html">TIMELESS</a></li>
+        <li><a href="emotion.html">EMOTIONS</a></li>
+        <li><a href="itt.html">I TOLD THEM</a></li>
+        <li><a href="unruly.html">UNRULY</a></li>
+        <li><a href="ravenroses.html" class="chosennav">RAVE AND ROSES [ULTRA]</a></li>
+    </ul>
+    </div>
+</head>
+
+<body>
+    <br>
+    <div class="body">
+        <img src="ravenroses.jpeg" class="mainimg" title="RAVE AND ROSES [ULTRA]"><br>
+        <CITE>Written by Kenez</CITE>
+        <p>This is an addition to the succesful debut studio album by Nigerian Singer REMA .It was released on June
+            16,2023.<br>
+            It comprises of 6 tracks which comprises of collaborations with
+            <code>SELENA GOMEZ</code> only<br>
+            <BR>THE PLAYLIST OF THE ALBUM IS-
+        <ol type="1">
+            <li>HOV
+            <li>REASON YOU
+            <li>HOLIDAY
+            <li>CHARM
+            <li>DUNNO ME
+            <li>CALM DOWN (REMIX) <code>[ft SELENA GOMEZ]</code>
+            </li>
+        </ol>
+        </p>
+        <a href="/Users/USER/Music/Boy_Alone_Deluxe_Album/Boy Alone Deluxe Album/" class="downloadbtn" onclick="alert('ARE YOU SURE YOU WANT TO DOWNLOAD THE ALBUM?')"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</a>
+     </div>
+
+     <h3><i class="fa fa-comment"></i>COMMENTS:</h3><br>
+     <div class="comments-list" id="comments-list" >
+     </div>
+     
+     <br>
+     <h4>LEAVE A COMMENT ABOUT THIS PROJECT</h4>
+         <div>
+         <div class="comment-box">
+     <textarea id="comment-input" placeholder="Write your review here..."></textarea><br>
+     <button class="rgstrbtn" onclick="addComment()">SEND</button>
+     </div>
+     </div>
+     
+     <script>
+     function addComment() {
+     var commentInput = document.getElementById('comment-input');
+     var commentText = commentInput.value;
+     
+     if (commentText.trim() !== "") {
+         var commentList = document.getElementById('comments-list');
+         var newComment = document.createElement('div');
+         newComment.className = 'comment';
+         newComment.textContent = commentText;
+         commentList.appendChild(newComment);
+         commentInput.value= '';
+     } else {
+         alert("Please enter a valid comment.");
+     }
+     }
+     </script>
+
+</html>

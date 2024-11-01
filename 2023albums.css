@@ -1,0 +1,385 @@
+body {
+  margin: 0pc;
+  background-color: rgb(231, 240, 243);
+}
+
+.logo{
+display:block;
+}
+
+::selection{
+    color:  black;
+    background-color:rgb(0, 0, 83);
+}
+
+cite {
+background-color: aqua;
+font-style: italic;
+border: 1px solid black;
+}
+
+.body {
+background-color: aliceblue;
+border: 2px groove blue;
+padding: 5px;
+width: 80%;
+margin-left: 7%;
+margin-bottom: 3%;
+font-size: 1.3pc;
+}
+
+
+.mainimg{
+height: 27pc;
+width: 50%;
+}
+
+.body::after{
+content: '';
+clear: both;
+display: table;
+}
+
+.homebody {
+padding: 5px;
+width: 80%;
+margin-left: 10%;
+margin-bottom: 10%;
+font-size: large;
+}
+
+.chosennav{
+background-color: blue;
+color: black;
+font-weight: bolder;
+border: 6px solid blue;
+}
+
+a{
+text-decoration: none;
+}
+
+ul {
+list-style-type: none;
+background-color: rgb(0, 3, 3);
+margin: 0pc;
+padding: 0pc;
+width: 0.02%;
+height: 100%;
+float: left;
+position: fixed;
+overflow: hidden scroll;
+transition: width 1s ease-in-out;
+border-right: 10px solid red;
+}
+
+ul:hover{
+width: 19%;
+background-color: rgb(0, 0, 83);
+border-right: none;
+border-right: 10px solid blue;
+}
+
+ul:hover li a{
+display: block;
+}
+
+li a {
+font-weight: bold;
+color: #000;
+padding: 1.5pc;
+text-decoration: none;
+text-align: center;
+display: none;
+}
+
+li > a:hover {
+font-weight: medium;
+background-color: blue;
+color: black;
+border: 1px solid blue;
+}
+
+button {
+background-color: black;
+border: 0.001px solid black;
+color: blue;
+padding: 0px;
+}
+
+b {
+background-color: aqua;
+padding: 1px;
+font-weight: bold;
+}
+
+.downloadbtn{
+background-color: black;
+width: fit-content;
+padding: 4px;
+border: 1.4px solid aqua;
+}
+
+a {
+color: aqua;
+}
+
+code {
+color: blue;
+}
+
+table{
+width:90%;
+height:40%;
+margin:2%;
+}
+
+td {
+background-color: black;
+color: blue;
+font-size: 8px;
+height:fit-content;
+}
+
+th{
+background-color: darkblue;
+color: black;
+font-size: 8px;
+}
+
+address {
+color: beige;
+}
+
+.comment-box {
+    max-width: 500px;
+    margin: 20px 0;
+    margin-left: 20%;
+    font-family:'Courier New', Courier, monospace;
+}
+.comment-box textarea {
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    transition: scale 1s ease-in-out;
+}
+
+.comment-box textarea:focus {
+    border: 1px solid aqua;
+    background-color: rgb(236, 252, 246);
+}
+
+.comment-box .rgstrbtn {
+    cursor: pointer;
+    width: 5pc;
+    height: 3pc;
+    font-size: large;
+    font-weight: bold;
+}
+.comments-list {
+    background-color: rgb(211, 215, 245);
+    width: 80%;
+    padding: 3px;
+    margin: auto;
+    height: fit-content;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+.comment {
+    background-color:white;
+    padding: 1pc;
+    margin: 15px 10px 10px 10px;
+    width: 85%;
+    overflow-wrap: break-word;
+    border-radius: 0.5pc;
+    border-bottom: 3px solid rgb(45, 10, 248);
+    box-shadow: 5px 2px rgb(45, 10, 248);
+}
+
+h3{
+    margin: auto;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid darkblue;
+    font-size: 2pc;
+    width: 60%;
+    height:fit-content;
+}
+
+h4{
+    width: 60%;
+    margin-right: 15%;
+    margin-left: 20%;
+    margin-top: 3%;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2pc;
+    width: 60%;
+    height:fit-content;
+    border-bottom: 3px groove darkblue;
+}
+
+
+@media screen and (max-width: 750px) {
+
+body {
+background-color: white;
+padding: 1px;
+}
+
+.logo{
+display:none;
+}
+
+
+
+.mainimg{
+height: 27pc;
+width: 90%;
+}
+
+ul {
+background-color: rgb(0, 0, 83);
+padding: 0pc;
+width: 100%;
+height: 5.6pc;
+float: none;
+position: fixed;
+overflow: scroll hidden;
+transition: none;
+border-bottom: 10px solid rgb(0, 0, 83);
+display:flex;
+}
+
+ul:hover{
+width: 100%;
+background-color: rgb(0, 0, 83);
+border-right: none;
+display:flex;
+}
+
+li a {
+font-size:small;
+font-weight: bold;
+color: black;
+padding: 10px 30px;
+text-decoration: none;
+text-align: center;
+display: flex;
+border-right:0.1px solid black
+}
+
+.verticalheader li > a:hover {
+    font-weight: bold;
+    background-color: blue;
+    color: black;
+    border: 1px solid blue;
+  }
+
+.chosennav{
+background-color: rgb(0, 0, 83);
+color: turquoise;
+font-weight: lighter;
+border: none;
+border-right: turquoise;
+}
+
+.body {
+border: 2px groove blue;
+padding: 5px;
+width: 92%;
+margin: 31% 2% ;
+font-size: 1pc;
+}
+
+.body::after{
+content:'';
+display:table;
+clear:both;
+
+}
+
+.comment-box {
+    max-width: 500px;
+    margin: 20px 0;
+    margin-left: 20%;
+    font-family:'Courier New', Courier, monospace;
+}
+.comment-box textarea {
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    transition: scale 1s ease-in-out;
+}
+
+.comment-box textarea:focus {
+    border: 1px solid aqua;
+    background-color: rgb(236, 252, 246);
+}
+
+.comment-box .rgstrbtn {
+    cursor: pointer;
+    width: 5pc;
+    height: 3pc;
+    font-size: large;
+    font-weight: bold;
+}
+.comments-list {
+    background-color: rgb(211, 215, 245);
+    width: 95%;
+    padding: 1.3px;
+    margin: auto;
+    height: fit-content;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+.comment {
+    background-color:white;
+    padding: 1pc;
+    margin: 15px 10px 10px 10px;
+    width: 85%;
+    overflow-wrap: break-word;
+    border-radius: 0.5pc;
+    border-bottom: 3px solid rgb(45, 10, 248);
+    box-shadow: 5px 2px rgb(45, 10, 248);
+}
+
+h3{
+    margin: auto;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid darkblue;
+    font-size: 120%;
+    width: 60%;
+    height:fit-content;
+}
+
+h4{
+    width: 60%;
+    margin-right: 15%;
+    margin-left: 20%;
+    margin-top: 3%;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    width: 60%;
+    height:fit-content;
+    border-bottom: 3px groove darkblue;
+}
+
+
+}

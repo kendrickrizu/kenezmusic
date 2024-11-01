@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="2023albums.css">
+  <link rel="shortcut icon" href="bitw.jpeg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/90ae465085.js" crossorigin="anonymous"></script>
+  <title>albumz2024.borninthewild</title>
+  <div class="menubar">
+    <ul>
+      <li>
+        <div style="padding: auto;margin-left: 40%;"><img src="Kenez.jpg" width="70" height="60" class="logo"></div>
+      </li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="ALBUMZ2024.html">2024 ALBUMS</a></li>
+      <li><a href="lunguboy.html">LUNGU BOY</a></li>
+      <li><a href="heis.html">HEIS</a></li>
+      <li><a href="ikigai.html">IKIGAI VOL. 1</a></li>
+      <li><a href="adedamola.html">ADEDAMOLA</a></li>
+      <li><a href="bitw.html" class="chosennav">BORN IN THE WILD</a></li>
+      <li><a href="tyit21.html" title="THE YEAR I TURNED 21">TYIT21</a></li>
+      <li><a href="444.html">444</a></li>
+      <li><a href="javascript:void(0)"onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">MORAYO</a></li>
+      <li><a href="javascript:void(0)" onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">CLARITY OF MIND</a></li>
+    </ul>
+  </div>
+</head>
+
+<body>
+  <br>
+  <div class="body">
+    <img src="bitw.jpeg" class="mainimg" title="BOYALONE"><br>
+    <CITE>Written by Kenez</CITE>
+    <p> <b>Born in the Wild</b> is the debut studio album by Nigerian singer Tems. It was released on 7 June 2024, via <code>RCA
+      Records</code> and <code>Since '93</code>. The album was supported by the singles <b>Me & U</b>, <b>Love Me JeJe</b> and <b>Burning</b>. Born in the
+      Wild features guest appearances from <code>ASAKE</code> and foreign rapper <code>J COLE</code>.
+     Its production was handled by <code>Tems, GuiltyBeatz, Sarz, P2J, London, Spax,</code> and <code>DameDame</code>. In promotion of the album, Tems will embark on the Born in the Wild
+      Tour.
+
+      The album was a commercial success reaching the top thirty in the UK, Netherlands and Switzerland. In the US, it
+      peaked at fifty-six becoming the highest peak for an album by a Nigerian female artist.
+      It consists of 18 tracks
+      <BR>BELOW IS THE ALBUM TRACKLIST-
+    <ol type="1">
+      <li>BORN IN THE WILD
+      <li>SPECIAL BABY (INTERLUDE)
+      <li>BURNING
+      <li>WICKEDEST
+      <li>LOVE ME JEJE
+      <li>GET IT RIGHT <code>[ft ASAKE]</code>
+      <li>READY
+      <li>GANGSTA 
+      <li>UNFORTUNATE
+      <li>BOY O BOY
+      <li>FOREVER
+      <li>FREE FALL <code>[ft J. COLE]</code>
+      <li>VOICES IN MY HEAD (INTERLUDE)
+      <li>TURN ME UP
+      <li>ME & U
+      <li>T - UNIT
+      <li>YOU IN MY FACE
+      <li>HOLD ON
+    
+      </li>
+    </ol>
+    </p>
+    <a href="https://jn3.awamedia.store/uploads/albums/2024/06/Born_in_the_Wild_Album.zip" class="downloadbtn"
+      onclick="alert('ARE YOU SURE YOU WANT TO DOWNLOAD THE ALBUM?')"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</a>
+  </div>
+
+  <h3><i class="fa fa-comment"></i>COMMENTS:</h3><br>
+  <div class="comments-list" id="comments-list" >
+  </div>
+  
+  <br>
+  <h4>LEAVE A COMMENT ABOUT THIS PROJECT</h4>
+      <div>
+      <div class="comment-box">
+  <textarea id="comment-input" placeholder="Write your review here..."></textarea><br>
+  <button class="rgstrbtn" onclick="addComment()">SEND</button>
+  </div>
+  </div>
+  
+  <script>
+  function addComment() {
+  var commentInput = document.getElementById('comment-input');
+  var commentText = commentInput.value;
+  
+  if (commentText.trim() !== "") {
+      var commentList = document.getElementById('comments-list');
+      var newComment = document.createElement('div');
+      newComment.className = 'comment';
+      newComment.textContent = commentText;
+      commentList.appendChild(newComment);
+      commentInput.value= '';
+  } else {
+      alert("Please enter a valid comment.");
+  }
+  }
+  </script>
+  </body>
+
+</html>

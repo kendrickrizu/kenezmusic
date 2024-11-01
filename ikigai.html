@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="2023albums.css">
+  <link rel="shortcut icon" href="ikigai.jpeg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/90ae465085.js" crossorigin="anonymous"></script>
+  <title>kenez.ikigaivol1</title>
+ <div class="menubar">
+  <ul>
+    <li>
+      <div style="padding: auto;margin-left: 40%;"><img src="Kenez.jpg" class="logo" width="70" height="60"></div>
+    </li>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="ALBUMZ2024.html">2024 ALBUMS</a></li>
+    <li><a href="lunguboy.html">LUNGU BOY</a></li> 
+    <li><a href="heis.html">HEIS</a></li>
+    <li><a href="ikigai.html" class="chosennav">IKIGAI VOL 1</a></li>
+    <li><a href="adedamola.html">ADEDAMOLA</a></li>
+    <li><a href="bitw.html">BORN IN THE WILD</a></li>
+    <li><a href="tyit21.html" title="THE YEAR I TURNED 21">TYIT21</a></li>
+    <li><a href="444.html">444</a></li>
+    <li><a href="javascript:void(0)"onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">MORAYO</a></li>
+    <li><a href="javascript:void(0)" onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">CLARITY OF MIND</a></li>
+   </ul>
+</div>
+</head>
+
+<body>
+    <br>
+    <div class="body">
+        <img src="ikigai.jpeg" class="mainimg" title="IKIGAI EP"><br>
+        <CITE>Written by Kenez</CITE>
+        <p><b>Ikigai / 生き甲斐 (Vol. 1)</b> is an EP by Nigerian rapper Olamide, released on 26 June 2024. It follows his 2023 album <a href="unruly.html">Unruly</a>.
+            It comprises of 7 tracks which comprises of collaborations with 
+            <code>ASAKE,FIREBOY DML</code> and YBNL alumni <code>PHEELZ, LIL KESH, YOUNG JOHN</code>
+            <BR>THE PLAYLIST OF THE ALBUM IS-
+        <ol type="1">
+            <li>METAVERSE
+            <li>UPTOWN DISCO <code>[ft ASAKE,FIREBOY DML]</code>
+            <li>MAKAVELI
+            <li>KNOCKOUT <code>[ft SABRI]</code>
+            <li>HELLO HABIBI
+            <li>MOROWORE
+            <li>SYNCHRO SYSTEM <code>[ft PHEELZ, YOUNG JOHN, LIL KESH]</code>
+            </li>
+        </ol>
+        </p>
+        <a href="https://jn3.awamedia.store/uploads/albums/2024/06/Ikigai_Vol_1_Ep.zip" class="downloadbtn" onclick="alert('ARE YOU SURE YOU WANT TO DOWNLOAD THE Ikigai / 生き甲斐 (Vol. 1) ALBUM?')"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</a>
+      </div>
+      <h3><i class="fa fa-comment"></i>COMMENTS:</h3><br>
+      <div class="comments-list" id="comments-list" >
+      </div>
+      
+      <br>
+      <h4>LEAVE A COMMENT ABOUT THIS PROJECT</h4>
+          <div>
+          <div class="comment-box">
+      <textarea id="comment-input" placeholder="Write your review here..."></textarea><br>
+      <button class="rgstrbtn" onclick="addComment()">SEND</button>
+      </div>
+      </div>
+      
+      <script>
+      function addComment() {
+      var commentInput = document.getElementById('comment-input');
+      var commentText = commentInput.value;
+      
+      if (commentText.trim() !== "") {
+          var commentList = document.getElementById('comments-list');
+          var newComment = document.createElement('div');
+          newComment.className = 'comment';
+          newComment.textContent = commentText;
+          commentList.appendChild(newComment);
+          commentInput.value= '';
+      } else {
+          alert("Please enter a valid comment.");
+      }
+      }
+      </script>
+
+</html>

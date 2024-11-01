@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <title>kenez.workofart</title>
+    <link rel="icon" type="t/x-icon" href="WORK OF ART.jpg">
+    <link rel="stylesheet" href="2023albums.css">
+    <script src="https://kit.fontawesome.com/90ae465085.js" crossorigin="anonymous"></script>
+    <ul>
+        <li>
+            <div style="padding: auto;margin-left: 40%;"><img src="Kenez.jpg" class="logo" width="50" height="50"></div>
+        </li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="ALBUMZ2023.html">2023 ALBUMS</a></li>
+        <li><a href="woa.html" class="chosennav">WORK OF ART</a>
+        </li>
+        <li><a href="boyalone.html">BOY ALONE [DELUXE]</a></li>
+        <li><a href="rtw.html">RU THE WORLD</a></li>
+        <li><a href="tl.html">TIMELESS</a></li>
+        <li><a href="emotion.html">EMOTIONS</a></li>
+        <li><a href="itt.html">I TOLD THEM</a></li>
+        <li><a href="unruly.html">UNRULY</a></li>
+        <li><a href="ravenroses.html">RAVE AND ROSES [ULTRA]</a></li>
+    </ul>
+</head>
+
+<body>
+    <br>
+    <div class="body">
+        <IMG SRC="WORK OF ART.jpg" title="WORK OF ART ALBUM" class="mainimg" alt="WORK OF ART"><br>
+        <CITE>Written by Kenez</CITE>
+        <p>This is an the second studio album by the Nigerian Singer <code>ASAKE</code> who is a signee of OLAMIDE'S record
+            label <code>YBNL</code> .It was released on Friday,June 16,2023 through YBNL Nation and Empire Distribution, Preceded by the release of the singles "Yoga", "2:30" and "Amapiano".<br>
+           <br>
+            It comprises of 14 tracks which comprises of a collaboration with his record label boss <code>OLAMIDE</code> only.<br> Its
+            production was handled by <code>Magicsticks,ragge</code> and some other producers.
+           <br>BELOW IS THE ALBUM TRACKLIST-
+        <ol type="1">
+            <li>Olorum
+            <li>Awodi
+            <li>2:30
+            <li>Sunshine
+            <li>Mogbe
+            <li>Basquiat
+            <li>Amapiano <code>[ft OLAMIDE]</code>
+            <li>Whats Up My G
+            <li>I Believe
+            <li>Introduction
+            <li>Remember
+            <li>Lonely at the top
+            <li>Great guy
+            <li>Yoga </li>
+        </ol>
+        </p>
+         <a href="https://jn3.awamedia.store/uploads/albums/2023/06/Work_Of_Art_Album.zip" class="downloadbtn"
+        onclick="alert('ARE YOU SURE YOU WANT TO DOWNLOAD THE ALBUM?')"><i class="fa fa-download"></i>&nbsp;DOWNLOAD</a>
+    </div>  
+
+    <h3><i class="fa fa-comment"></i>COMMENTS:</h3><br>
+    <div class="comments-list" id="comments-list" >
+    </div>
+    
+    <br>
+    <h4>LEAVE A COMMENT ABOUT THIS PROJECT</h4>
+        <div>
+        <div class="comment-box">
+    <textarea id="comment-input" placeholder="Write your review here..."></textarea><br>
+    <button class="rgstrbtn" onclick="addComment()">SEND</button>
+    </div>
+    </div>
+    
+    <script>
+    function addComment() {
+    var commentInput = document.getElementById('comment-input');
+    var commentText = commentInput.value;
+    
+    if (commentText.trim() !== "") {
+        var commentList = document.getElementById('comments-list');
+        var newComment = document.createElement('div');
+        newComment.className = 'comment';
+        newComment.textContent = commentText;
+        commentList.appendChild(newComment);
+        commentInput.value= '';
+    } else {
+        alert("Please enter a valid comment.");
+    }
+    }
+    </script>
+
+</body>
+
+</html>

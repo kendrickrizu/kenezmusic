@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="2023albums.css">
+  <link rel="shortcut icon" href="adedamola.jpeg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/90ae465085.js" crossorigin="anonymous"></script>
+  <title>albumz2024.adedamola</title>
+  <div class="menubar">
+    <ul>
+      <li>
+        <div style="padding: auto;margin-left: 40%;"><img src="Kenez.jpg" width="70" height="60" class="logo"></div>
+      </li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="ALBUMZ2024.html">2024 ALBUMS</a></li>
+      <li><a href="lunguboy.html">LUNGU BOY</a></li>
+      <li><a href="heis.html">HEIS</a></li>
+      <li><a href="ikigai.html">IKIGAI VOL. 1</a></li>
+      <li><a href="adedamola.html" class="chosennav">ADEDAMOLA</a></li>
+      <li><a href="bitw.html">BORN IN THE WILD</a></li>
+      <li><a href="tyit21.html" title="THE YEAR I TURNED 21">TYIT21</a></li>
+      <li><a href="444.html">444</a></li>
+      <li><a href="javascript:void(0)"onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">MORAYO</a></li>
+      <li><a href="javascript:void(0)" onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">CLARITY OF MIND</a></li>
+       </ul>
+  </div>
+</head>
+
+<body>
+  <br>
+  <div class="body">
+    <img src="adedamola.jpeg" class="mainimg" title="ADEDAMOLA"><br>
+    <CITE>Written by Kenez</CITE>
+    <p> <b>Adedamola</b> is the eponymous fourth studio album by Nigerian singer and songwriter Fireboy DML. It was released on
+      29 August 2024 by <code>YBNL Nation</code> and <code>Empire</code>, and features guest appearances from artists <code> SEUN KUTI, LOJAY, LAGBAJA, JON BATISTE</code> and <code>DJ SPINALL</code>.
+     The album featured production from <code>Drexbeats, Magicsticks, Blaisebeatz, Lagbaja, Telz, Godomarr, Foreigngotem, WXLA, Nxrthmix, Spinall, Bassiqally, Jon Batiste, Southtag, Semzi, Pheelz,
+      Eskeez</code> and <code>ID Cabasa</code>. The album serves as a follow-up to <b>Playboy</b> (2022).
+      It consists of 14 tracks
+      <BR>BELOW IS THE ALBUM TRACKLIST-
+    <ol type="1">
+      <li>ISEOLUWA
+      <li>CALL ME
+      <li>ECSTASY <code>[ft SEUN KUTI]</code>
+      <li>HELL AND BACK
+      <li>LETTING GO <code>[ft LOJAY]</code>
+      <li>BACK N FORTH <code>[ft LAGBAJA]</code>
+      <li>READY <code>[ft JON BATISTE]</code>
+      <li>WANDE'S BOP <code>[ft DJ SPINALL]</code>
+      <li>CHANGE YOUR LIFE
+      <li>EVERYDAY
+      <li>NEED ME
+      <li>OBAA SIMA
+      <li>YAWA
+      <li>JON'S INTERLUDE
+      </li>
+    </ol>
+    </p>
+    <a href="https://jn3.awamedia.store/uploads/albums/2024/08/adedamola_Album.zip" class="downloadbtn"
+      onclick="alert('ARE YOU SURE YOU WANT TO DOWNLOAD THE ALBUM?')"><i class="fa fa-download"></i>&nbsp; DOWNLOAD</a>
+  </div>
+
+  <h3><i class="fa fa-comment"></i>COMMENTS:</h3><br>
+  <div class="comments-list" id="comments-list" >
+  </div>
+  
+  <br>
+  <h4>LEAVE A COMMENT ABOUT THIS PROJECT</h4>
+      <div>
+      <div class="comment-box">
+  <textarea id="comment-input" placeholder="Write your review here..."></textarea><br>
+  <button class="rgstrbtn" onclick="addComment()">SEND</button>
+  </div>
+  </div>
+  
+  <script>
+  function addComment() {
+  var commentInput = document.getElementById('comment-input');
+  var commentText = commentInput.value;
+  
+  if (commentText.trim() !== "") {
+      var commentList = document.getElementById('comments-list');
+      var newComment = document.createElement('div');
+      newComment.className = 'comment';
+      newComment.textContent = commentText;
+      commentList.appendChild(newComment);
+      commentInput.value= '';
+  } else {
+      alert("Please enter a valid comment.");
+  }
+  }
+  </script>
+  </body>
+
+</html>

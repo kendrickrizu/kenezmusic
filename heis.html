@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="2023albums.css">
+  <link rel="shortcut icon" href="heis.jpeg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/90ae465085.js" crossorigin="anonymous"></script>
+  <title>Kenez.heis</title>
+  <div class="menubar">
+    <ul>
+      <li>
+        <div style="padding: auto;margin-left: 40%;"><img src="Kenez.jpg" width="70" height="60" class="logo"></div>
+      </li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="ALBUMZ2024.html">2024 ALBUMS</a></li>
+      <li><a href="lunguboy.html">LUNGU BOY</a></li>
+      <li><a href="heis.html" class="chosennav">HEIS</a></li>
+      <li><a href="ikigai.html">IKIGAI VOL. 1</a></li>
+      <li><a href="adedamola.html">ADEDAMOLA</a></li>
+      <li><a href="bitw.html">BORN IN THE WILD</a></li>
+      <li><a href="tyit21.html" title="THE YEAR I TURNED 21">TYIT21</a></li>
+      <li><a href="444.html">444</a></li>
+      <li><a href="javascript:void(0)"onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">MORAYO</a></li>
+      <li><a href="javascript:void(0)" onclick="alert('ALBUM UNAVAILABLE, IT IS YET TO BE RELEASED')">CLARITY OF MIND</a></li>
+     </ul>
+  </div>
+</head>
+
+<body>
+  <br>
+  <div class="body">
+    <img src="heis.jpeg" class="mainimg" title="HEIS"><br>
+    <CITE>Written by Kenez</CITE>
+    <p><b>Heis</b> is the second studio album by Nigerian rapper and singer-songwriter Rema. It was released through
+      <code>Mavin Records, Jonzing World, and Interscope Records</code> on 10 July 2024.
+      <br>
+      The album features guest appearances from <code>SHALLIPOPI</code> and <code>ODUMODU BLVCK</code>.
+      It serves as the follow-up to his previous album, <b>Rave & Roses</b> (2022).The lead single of the album, <b>Benin Boys</b>,
+      was released on 20 June 2024, which features Nigerian Afrobeats singer Shallipopi. The second single,
+      <b>Hehehe</b>, was released on 7 July 2024, three days before the album was released.
+      <BR>THE PLAYLIST OF THE ALBUM IS-
+    <ol type="1">
+      <li>MARCH AM
+      <li>BENIN BOYS <code>[ft SHALLIPOPI]</code>
+      <li>HEHEHE
+      <li>YAYO
+      <li>HEIS
+      <li>OZEBA
+      <li>WAR MACHINE <code>[ft ODUMODU BLVCK]</code>
+      <li>EGUNGUN
+      <li>VILLAIN
+      <li>NOW I KNOW
+      </li>
+    </ol>
+    </p>
+    <a href="https://jn3.awamedia.store/uploads/albums/2024/07/HEIS_Album.zip" class="downloadbtn"
+      onclick="alert('ARE YOU SURE YOU WANT TO DOWNLOAD THE HEIS ALBUM?')"><i class="fa fa-download"></i>&nbsp;
+      DOWNLOAD</a>
+  </div>
+
+  <h3><i class="fa fa-comment"></i>COMMENTS:</h3><br>
+<div class="comments-list" id="comments-list" >
+</div>
+
+<br>
+<h4>LEAVE A COMMENT ABOUT THIS PROJECT</h4>
+    <div>
+    <div class="comment-box">
+<textarea id="comment-input" placeholder="Write your review here..."></textarea><br>
+<button class="rgstrbtn" onclick="addComment()">SEND</button>
+</div>
+</div>
+
+<script>
+function addComment() {
+var commentInput = document.getElementById('comment-input');
+var commentText = commentInput.value;
+
+if (commentText.trim() !== "") {
+    var commentList = document.getElementById('comments-list');
+    var newComment = document.createElement('div');
+    newComment.className = 'comment';
+    newComment.textContent = commentText;
+    commentList.appendChild(newComment);
+    commentInput.value= '';
+} else {
+    alert("Please enter a valid comment.");
+}
+}
+</script>
+
+</html>
